@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
 	font-weight: inherit;
-	font-size: inherit;
+	font-size: inheri  t;
 }
 img {
 	vertical-align: top;
@@ -154,16 +154,16 @@ p {
 /* Комбинация селекторов */
 
 span.text.blue-text {
-	/* Обратились ко тегам SPAN с классами и text и blue-text на странице */
+	/* Обратились ко всем тегам SPAN с классами и text и blue-text на странице */
 	/* color: red; */
-}
+} 
 .text {
-	/* Обратились ко объектам с классом text на странице */
+	/* Обратились ко всем объектам с классом text на странице */
 	/* color: green; */
 }
 
 span.blue-text {
-	/* Обратились ко тегам SPAN с классом blue-text на странице */
+	/* Обратились ко всем тегам SPAN с классом blue-text на странице */
 	/* color: blue; */
 }
 
@@ -176,7 +176,7 @@ div p {
 }
 
 .content .content__item {
-	/* Обратились ко объектам с классом .content__item но только к тем
+	/* Обратились ко всем объектам с классом .content__item но только к тем
 	которые находятся внутри любых объектов с классом .content на странице 
 	*/
 	/* color: yellowgreen; */
